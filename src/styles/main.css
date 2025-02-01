@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Form styling */
+  input, textarea, select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
+  /* FAQ List styling */
+  .faq-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faq-item {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .faq-item span {
+    font-size: 18px;
+  }
+  
+  .faq-item button {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .faq-item button:hover {
+    background-color: darkred;
+  }
+  
+  .faq-item a {
+    text-decoration: none;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .faq-item a:hover {
+    background-color: darkgreen;
+  }
+  
